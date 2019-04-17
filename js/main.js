@@ -1,4 +1,4 @@
-import listen from './js/listeners.js'
+import listen from './listeners.js'
 
 function showLoader(){
 
