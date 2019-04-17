@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WikiViewer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' ></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js' ></script>
+    
+    <script type='module' src="main.js" defer></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id='container'>
+      <h1>WikiViewer</h1>
+
+      <div id='formContain' class='alone'>
+        <a class='random'>Click here for random article</a>
+        <form>
+          <input id='searchBox' type='text' placeholder='search'>
+        </form>
+      </div>
+      
+      <div id='results'>
+        
+      </div>
+      
+    </div>
+
+    <div id='overlay' class=''>
+      <div id='modal'>
+
+        <div class='modal-content'>
+          <header>
+          <h2>Header</h2>
+          <a class='close'></a>
+          </header>
+          <section>
+            <div class="image-box"><img src='https://via.placeholder.com/150'/></div>
+            <div class='content'>
+            </div>
+          </section>
+        </div>
+
+        <div class='modal-loader'>
+          <div class='loader-4 loader'>
+            <div class='c1'></div>
+            <div class='c2'></div>
+            <div class='c3'></div>
+            <div class='c4'></div>
+            <div class='c5'></div>
+            <div class='c6'></div>
+            <div class='c7'></div>
+            <div class='c8'></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  </body>
+</html>
